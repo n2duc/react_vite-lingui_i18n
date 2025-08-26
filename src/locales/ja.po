@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2023-03-23 12:19+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ja\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/App.tsx:26
+msgid "{count, plural, one {# month} other {# months}}"
+msgstr "{count, plural, other {#ヶ月}}"
+
+#: src/Inbox.tsx:27
+msgid "{messagesCount, plural, one {There's # message in your inbox} other {There are # messages in your inbox}}"
+msgstr "{messagesCount, plural, other {受信箱に#件のメッセージがあります}}"
+
+#: src/App.tsx:31
+msgid "Edit <0>src/App.tsx</0> and save to test HMR"
+msgstr "<0>src/App.tsx</0>を編集して保存し、HMRをテストしてください"
+
+#: src/LanguageSwitcher.tsx:36
+msgid "Language:"
+msgstr "言語:"
+
+#. placeholder {0}: i18n.date(lastLogin)
+#: src/Inbox.tsx:35
+msgid "Last login on {0}."
+msgstr "最終ログイン：{0}"
+
+#: src/components/DemoLongContent.tsx:20
+msgid "Love between two friends of the opposite sex often blossoms from empathy and deep understanding. It is not born of fleeting emotions, but built upon a foundation of trust and respect. Through the years they spend side by side, friendship slowly transforms into a profound connection, rising above ordinary affection. At times, this bond may unfold into romantic love, when both realize they are inseparable. Such love endures, for it has been tested and tenderly nurtured by time."
+msgstr "異性の二人の友情は、しばしば共感と理解から始まります。それは一時的な感情から生まれるのではなく、信頼と尊重という土台の上に築かれるのです。長い年月を共に過ごす中で、その友情は次第に深い絆へと変わり、ありふれた感情を超えていきます。やがて、互いがなくては生きられないと気づいたとき、その絆は恋愛へと発展することもあります。そのような愛は、時の試練を受け、育まれてきたからこそ、永遠に続くものとなるのです。"
+
+#: src/Inbox.tsx:9
+msgid "Marked as read."
+msgstr "既読にしました。"
+
+#: src/Inbox.tsx:15
+msgid "Message Inbox"
+msgstr "メッセージ受信箱"
+
+#: src/components/DemoLongContent.tsx:15
+msgid "Open"
+msgstr "開く"
+
+#: src/Inbox.tsx:19
+msgid "See all <0>unread messages</0> or <1>mark them</1> as read."
+msgstr "すべての<0>未読メッセージ</0>を表示するか、<1>既読にマーク</1>してください。"
