@@ -5,7 +5,7 @@ A modern React application with internationalization (i18n) support using Lingui
 ## Features
 
 - 🌍 **Multi-language support**: English, Vietnamese, Korean, Japanese, French
-- 🔗 **URL-based routing**: `/en`, `/vi`, `/ko`, `/ja`, `/fr`
+- 🔗 **URL-based routing**: `/en`, `/vi`, `/ko`, `/ja`, `/fr`, `/ru`
 - 🎯 **Smart locale detection**: Detects language from URL and localStorage
 - ⚡ **No flash transitions**: Smooth language switching without content flashing
 - 🎨 **Modern UI**: Built with shadcn/ui components and Tailwind CSS
