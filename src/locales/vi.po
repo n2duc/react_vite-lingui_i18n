@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.tsx:26
+#: src/App.tsx:24
 msgid "{count, plural, one {# month} other {# months}}"
 msgstr "{count, plural, other {# tháng}}"
 
@@ -21,11 +21,19 @@ msgstr "{count, plural, other {# tháng}}"
 msgid "{messagesCount, plural, one {There's # message in your inbox} other {There are # messages in your inbox}}"
 msgstr "{messagesCount, plural, other {Có # tin nhắn trong hộp thư của bạn}}"
 
-#: src/App.tsx:31
+#: src/ProductInformation.tsx:50
+msgid "All orders are carefully packaged and fully insured. Track your shipment in real-time through our dedicated tracking portal."
+msgstr "Tất cả các đơn hàng được đóng gói cẩn thận và được bảo hiểm đầy đủ. Theo dõi đơn hàng của bạn trực tiếp thông qua cổng theo dõi đặc biệt của chúng tôi."
+
+#: src/App.tsx:29
 msgid "Edit <0>src/App.tsx</0> and save to test HMR"
 msgstr "Chỉnh sửa file <0>src/App.tsx</0> và lưu để kiểm tra HMR"
 
-#: src/LanguageSwitcher.tsx:36
+#: src/ProductInformation.tsx:30
+msgid "Key features include advanced processing capabilities, and an intuitive user interface designed for both beginners and experts."
+msgstr "Các tính năng chính bao gồm khả năng xử lý nâng cao và một giao diện người dùng dễ sử dụng được thiết kế cho cả người mới bắt đầu và người có kinh nghiệm."
+
+#: src/LanguageSwitcher.tsx:41
 msgid "Language:"
 msgstr "Ngôn ngữ:"
 
@@ -50,6 +58,34 @@ msgstr "Hộp thư đến"
 msgid "Open"
 msgstr "Mở"
 
+#: src/ProductInformation.tsx:23
+msgid "Our flagship product combines cutting-edge technology with sleek design. Built with premium materials, it offers unparalleled performance and reliability."
+msgstr "Sản phẩm chính của chúng tôi kết hợp công nghệ tiên tiến với thiết kế mới mẻ. Được xây dựng từ vật liệu chất lượng cao, nó mang đến hiệu suất và độ tin cậy vượt trội."
+
+#: src/ProductInformation.tsx:70
+msgid "Our hassle-free return process includes free return shipping and full refunds processed within 48 hours of receiving the returned item."
+msgstr "Quy trình hoàn trả không có vấn đề của chúng tôi bao gồm phí vận chuyển hoàn trả miễn phí và hoàn trả đầy đủ được xử lý trong vòng 48 giờ sau khi nhận được sản phẩm đã hoàn trả."
+
+#: src/ProductInformation.tsx:19
+msgid "Product Information"
+msgstr "Thông tin sản phẩm"
+
+#: src/ProductInformation.tsx:59
+msgid "Return Policy"
+msgstr "Chính sách hoàn trả"
+
 #: src/Inbox.tsx:19
 msgid "See all <0>unread messages</0> or <1>mark them</1> as read."
 msgstr "Xem tất cả <0>tin nhắn chưa đọc</0> hoặc <1>đánh dấu chúng</1> là đã đọc."
+
+#: src/ProductInformation.tsx:39
+msgid "Shipping Details"
+msgstr "Chi tiết vận chuyển"
+
+#: src/ProductInformation.tsx:43
+msgid "We offer worldwide shipping through trusted courier partners. Standard delivery takes 3-5 business days, while express shipping ensures delivery within 1-2 business days."
+msgstr "Chúng tôi cung cấp vận chuyển toàn cầu thông qua đối tác vận chuyển đáng tin cậy. Giao hàng tiêu chuẩn mất 3-5 ngày làm việc, trong khi giao hàng nhanh chóng đảm bảo giao hàng trong vòng 1-2 ngày làm việc."
+
+#: src/ProductInformation.tsx:63
+msgid "We stand behind our products with a comprehensive 30-day return policy. If you're not completely satisfied, simply return the item in its original condition."
+msgstr "Chúng tôi đứng sau sản phẩm của mình với chính sách hoàn trả 30 ngày. Nếu bạn không hoàn toàn hài lòng, chỉ cần trả lại sản phẩm trong điều kiện ban đầu của nó."

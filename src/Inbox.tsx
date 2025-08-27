@@ -10,8 +10,8 @@ export default function Inbox() {
   };
 
   return (
-    <div className="bg-zinc-100 py-5 px-10 rounded-lg mt-4 text-center md:min-w-[500px]">
-      <h1 className="text-5xl font-bold mb-3">
+    <div className="bg-zinc-100 py-5 px-10 rounded-lg mt-4 text-center md:max-w-[800px] w-full space-y-3">
+      <h1>
         <Trans>Message Inbox</Trans>
       </h1>
 
@@ -19,7 +19,7 @@ export default function Inbox() {
         <Trans>
           See all <a href="#">unread messages</a>
           {" or "}
-          <a onClick={markAsRead}>mark them</a> as read.
+          <a href="#" onClick={markAsRead}>mark them</a> as read.
         </Trans>
       </p>
 

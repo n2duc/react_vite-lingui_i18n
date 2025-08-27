@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.tsx:26
+#: src/App.tsx:24
 msgid "{count, plural, one {# month} other {# months}}"
 msgstr ""
 
@@ -21,11 +21,19 @@ msgstr ""
 msgid "{messagesCount, plural, one {There's # message in your inbox} other {There are # messages in your inbox}}"
 msgstr ""
 
-#: src/App.tsx:31
+#: src/ProductInformation.tsx:50
+msgid "All orders are carefully packaged and fully insured. Track your shipment in real-time through our dedicated tracking portal."
+msgstr "All orders are carefully packaged and fully insured. Track your shipment in real-time through our dedicated tracking portal."
+
+#: src/App.tsx:29
 msgid "Edit <0>src/App.tsx</0> and save to test HMR"
 msgstr ""
 
-#: src/LanguageSwitcher.tsx:36
+#: src/ProductInformation.tsx:30
+msgid "Key features include advanced processing capabilities, and an intuitive user interface designed for both beginners and experts."
+msgstr "Key features include advanced processing capabilities, and an intuitive user interface designed for both beginners and experts."
+
+#: src/LanguageSwitcher.tsx:41
 msgid "Language:"
 msgstr ""
 
@@ -50,6 +58,34 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
+#: src/ProductInformation.tsx:23
+msgid "Our flagship product combines cutting-edge technology with sleek design. Built with premium materials, it offers unparalleled performance and reliability."
+msgstr "Our flagship product combines cutting-edge technology with sleek design. Built with premium materials, it offers unparalleled performance and reliability."
+
+#: src/ProductInformation.tsx:70
+msgid "Our hassle-free return process includes free return shipping and full refunds processed within 48 hours of receiving the returned item."
+msgstr "Our hassle-free return process includes free return shipping and full refunds processed within 48 hours of receiving the returned item."
+
+#: src/ProductInformation.tsx:19
+msgid "Product Information"
+msgstr "Product Information"
+
+#: src/ProductInformation.tsx:59
+msgid "Return Policy"
+msgstr "Return Policy"
+
 #: src/Inbox.tsx:19
 msgid "See all <0>unread messages</0> or <1>mark them</1> as read."
 msgstr ""
+
+#: src/ProductInformation.tsx:39
+msgid "Shipping Details"
+msgstr "Shipping Details"
+
+#: src/ProductInformation.tsx:43
+msgid "We offer worldwide shipping through trusted courier partners. Standard delivery takes 3-5 business days, while express shipping ensures delivery within 1-2 business days."
+msgstr "We offer worldwide shipping through trusted courier partners. Standard delivery takes 3-5 business days, while express shipping ensures delivery within 1-2 business days."
+
+#: src/ProductInformation.tsx:63
+msgid "We stand behind our products with a comprehensive 30-day return policy. If you're not completely satisfied, simply return the item in its original condition."
+msgstr "We stand behind our products with a comprehensive 30-day return policy. If you're not completely satisfied, simply return the item in its original condition."

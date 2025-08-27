@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.tsx:26
+#: src/App.tsx:24
 msgid "{count, plural, one {# month} other {# months}}"
 msgstr "{count, plural, other {#개월}}"
 
@@ -21,11 +21,19 @@ msgstr "{count, plural, other {#개월}}"
 msgid "{messagesCount, plural, one {There's # message in your inbox} other {There are # messages in your inbox}}"
 msgstr "{messagesCount, plural, other {받은편지함에 #개의 메시지가 있습니다}}"
 
-#: src/App.tsx:31
+#: src/ProductInformation.tsx:50
+msgid "All orders are carefully packaged and fully insured. Track your shipment in real-time through our dedicated tracking portal."
+msgstr "모든 주문은 신중하게 포장되고 완전히 보험됩니다. 전용 추적 포탈을 통해 실시간으로 발송을 추적할 수 있습니다."
+
+#: src/App.tsx:29
 msgid "Edit <0>src/App.tsx</0> and save to test HMR"
 msgstr "<0>src/App.tsx</0>를 수정하고 저장하여 HMR을 테스트하세요"
 
-#: src/LanguageSwitcher.tsx:36
+#: src/ProductInformation.tsx:30
+msgid "Key features include advanced processing capabilities, and an intuitive user interface designed for both beginners and experts."
+msgstr "주요 기능에는 고급 처리 기능과 초보자와 전문가 모두에게 설계된 직관적인 사용자 인터페이스가 포함됩니다."
+
+#: src/LanguageSwitcher.tsx:41
 msgid "Language:"
 msgstr "언어:"
 
@@ -50,6 +58,34 @@ msgstr "메시지 받은편지함"
 msgid "Open"
 msgstr "열기"
 
+#: src/ProductInformation.tsx:23
+msgid "Our flagship product combines cutting-edge technology with sleek design. Built with premium materials, it offers unparalleled performance and reliability."
+msgstr "우리의 대표 제품은 최신 기술과 우아한 디자인을 결합합니다. 최고급 재료로 제작되어 뛰어난 성능과 신뢰성을 제공합니다."
+
+#: src/ProductInformation.tsx:70
+msgid "Our hassle-free return process includes free return shipping and full refunds processed within 48 hours of receiving the returned item."
+msgstr "우리의 간편한 반품 프로세스에는 무료 반품 배송과 반품 아이템을 수신한 후 48시간 이내에 처리되는 전액 환불이 포함됩니다."
+
+#: src/ProductInformation.tsx:19
+msgid "Product Information"
+msgstr "제품 정보"
+
+#: src/ProductInformation.tsx:59
+msgid "Return Policy"
+msgstr "반품 정책"
+
 #: src/Inbox.tsx:19
 msgid "See all <0>unread messages</0> or <1>mark them</1> as read."
 msgstr "모든 <0>읽지 않은 메시지</0>를 보거나 <1>읽음으로 표시</1>하세요."
+
+#: src/ProductInformation.tsx:39
+msgid "Shipping Details"
+msgstr "배송 상세"
+
+#: src/ProductInformation.tsx:43
+msgid "We offer worldwide shipping through trusted courier partners. Standard delivery takes 3-5 business days, while express shipping ensures delivery within 1-2 business days."
+msgstr "신뢰할 수 있는 택배 파트너를 통해 전 세계 배송을 제공합니다. 표준 배송은 3-5일, 표준 배송은 1-2일 이내에 배송을 보장합니다."
+
+#: src/ProductInformation.tsx:63
+msgid "We stand behind our products with a comprehensive 30-day return policy. If you're not completely satisfied, simply return the item in its original condition."
+msgstr "우리는 30일 반품 정책을 통해 제품을 지지합니다. 완전히 만족하지 못한다면, 단순히 원래 상태로 반품하세요."

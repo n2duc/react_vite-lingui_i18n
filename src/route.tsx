@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from "react-router";
+import { createBrowserRouter, redirect } from "react-router";
 import App from "./App";
 
 export function getDefaultLocale() {
@@ -7,8 +7,15 @@ export function getDefaultLocale() {
 
 export const router = createBrowserRouter([
   {
-    index: true,
-    element: <Navigate to={`/${getDefaultLocale()}`} replace />,
+    path: "/",
+    element: <App />,
+    loader: () => {
+      const saved = getDefaultLocale();
+      if (saved && saved !== "en") {
+        return redirect(`/${saved}`);
+      }
+      return null;
+    },
   },
   {
     path: "/:locale",

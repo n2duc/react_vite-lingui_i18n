@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.tsx:26
+#: src/App.tsx:24
 msgid "{count, plural, one {# month} other {# months}}"
 msgstr "{count, plural, many {# de mois} other {# mois}}"
 
@@ -21,11 +21,19 @@ msgstr "{count, plural, many {# de mois} other {# mois}}"
 msgid "{messagesCount, plural, one {There's # message in your inbox} other {There are # messages in your inbox}}"
 msgstr "{messagesCount, plural, other {Il y a # message dans votre boîte de réception}}"
 
-#: src/App.tsx:31
+#: src/ProductInformation.tsx:50
+msgid "All orders are carefully packaged and fully insured. Track your shipment in real-time through our dedicated tracking portal."
+msgstr "Toutes les commandes sont soigneusement emballées et assurées. Suivez votre envoi en temps réel via notre portail de suivi dédié."
+
+#: src/App.tsx:29
 msgid "Edit <0>src/App.tsx</0> and save to test HMR"
 msgstr "Modifier <0>src/App.tsx</0> et enregistrer pour tester HMR"
 
-#: src/LanguageSwitcher.tsx:36
+#: src/ProductInformation.tsx:30
+msgid "Key features include advanced processing capabilities, and an intuitive user interface designed for both beginners and experts."
+msgstr "Les fonctionnalités clés comprennent des capacités de traitement avancées et une interface utilisateur intuitive conçue pour les débutants et les experts."
+
+#: src/LanguageSwitcher.tsx:41
 msgid "Language:"
 msgstr "Langue:"
 
@@ -50,6 +58,34 @@ msgstr "Boîte de réception"
 msgid "Open"
 msgstr "Ouvrir"
 
+#: src/ProductInformation.tsx:23
+msgid "Our flagship product combines cutting-edge technology with sleek design. Built with premium materials, it offers unparalleled performance and reliability."
+msgstr "Notre produit phare combine la technologie de pointe avec un design élégant. Construit avec des matériaux de haute qualité, il offre des performances inégalées et une fiabilité sans équivalent."
+
+#: src/ProductInformation.tsx:70
+msgid "Our hassle-free return process includes free return shipping and full refunds processed within 48 hours of receiving the returned item."
+msgstr "Notre processus de retour sans souci inclut le transport gratuit et les remboursements complets traités dans les 48 heures après la réception de l’article retourné."
+
+#: src/ProductInformation.tsx:19
+msgid "Product Information"
+msgstr "Informations sur le produit"
+
+#: src/ProductInformation.tsx:59
+msgid "Return Policy"
+msgstr "Politique de retour"
+
 #: src/Inbox.tsx:19
 msgid "See all <0>unread messages</0> or <1>mark them</1> as read."
 msgstr "Voir tous les <0>messages non lus</0> ou <1>les marquer</1> comme lus."
+
+#: src/ProductInformation.tsx:39
+msgid "Shipping Details"
+msgstr "Détails de livraison"
+
+#: src/ProductInformation.tsx:43
+msgid "We offer worldwide shipping through trusted courier partners. Standard delivery takes 3-5 business days, while express shipping ensures delivery within 1-2 business days."
+msgstr "Nous offrons une livraison mondiale via des partenaires de messagerie fiables. La livraison standard prend 3-5 jours ouvrables, tandis que la livraison express garantit la livraison dans les 1-2 jours ouvrables."
+
+#: src/ProductInformation.tsx:63
+msgid "We stand behind our products with a comprehensive 30-day return policy. If you're not completely satisfied, simply return the item in its original condition."
+msgstr "Nous nous engageons sur nos produits avec une politique de retour de 30 jours. Si vous n'êtes pas complètement satisfait, retournez simplement l'article dans son état d'origine."

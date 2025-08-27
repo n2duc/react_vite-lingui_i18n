@@ -1,5 +1,5 @@
 import { Trans } from "@lingui/react/macro";
-import { useLocation, useNavigate, useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { getDefaultLocale } from "./route";
 
 import {
@@ -17,15 +17,20 @@ const languages = [
   { code: "ko", name: "Korean" },
   { code: "ja", name: "Japanese" },
   { code: "fr", name: "French" },
+  { code: "ru", name: "Russian" },
 ];
 
 export function LanguageSwitcher() {
-  const location = useLocation();
   const navigate = useNavigate();
   const { locale } = useParams();
 
   const switchLanguage = (newLocale: string) => {
-    const path = location.pathname.replace(`/${locale}`, `/${newLocale}`);
+    let path;
+    if (newLocale === "en") {
+      path = "/";
+    } else {
+      path = `/${newLocale}`;
+    }
     localStorage.setItem("locale", newLocale);
     navigate(path);
   };

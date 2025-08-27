@@ -6,16 +6,15 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 import { useParams } from "react-router";
 import { Button } from "./components/ui/button";
 import DemoLongContent from "./components/DemoLongContent";
+import ProductInformation from "./ProductInformation";
 
 function App() {
   const [count, setCount] = useState(0);
   const { locale } = useParams();
 
   useEffect(() => {
-    if (locale) {
-      loadCatalog(locale);
-      localStorage.setItem("locale", locale);
-    }
+    const currentLocale = locale || "en";
+    loadCatalog(currentLocale);
   }, [locale]);
 
   return (
@@ -35,6 +34,7 @@ function App() {
         <LanguageSwitcher />
       </div>
       <Inbox />
+      <ProductInformation />
     </div>
   );
 }
